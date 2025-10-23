@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/submit-email" method="post">
+      <input 
+      type="email" 
+      name="to" 
+      placeholder="Recipient Email" 
+      required />
+      <br></br>
+
+      <input 
+      type="text" 
+      name="subject" 
+      placeholder="Subject" 
+      required />
+      <br></br>
+
+      <textarea 
+      name="body" 
+      placeholder="Email Body" 
+      required>
+      </textarea>
+      <br></br>
+      <button type="submit">Send Email</button>
+    </form>
+  </body>
+</html>
